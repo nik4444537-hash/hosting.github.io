@@ -1,0 +1,104 @@
+body{
+background-color: azure; 
+margin:0;  
+border-radius:5px;
+}
+
+/* search bar div */
+#search-bar-div{
+ margin-left:25px;  
+}
+
+
+input[type=text]{
+ font-size: medium;
+ background-color:snow;  
+}
+
+/* search bar  */
+.search-bar{
+width:70%;
+height:5%; 
+border-radius:5px;   
+}
+
+/* search button */
+.search-button{
+ height:5%;  
+ border-radius: 4px; 
+ background-color: thistle;
+ font-size: medium;
+ color:white;
+}
+
+
+
+
+/* booking rect div design */
+
+.view-rect-info{
+margin-top:10%;
+margin-left:5%;
+width:90%;
+height:55%;
+background-color:white;    
+}
+
+/* add */
+.add{
+font-size:14px;
+font-style: oblique;
+color: black;    
+}
+
+/* view details-div */
+#view-details-div{
+overflow: hidden;
+}
+
+/* view details */
+.view-details{
+    font-size:13px;
+    font-style:normal;
+    overflow: hidden;
+    color: black; 
+    float:right;
+    margin-top:24%; 
+}
+
+/* type of living css */
+#type{
+margin-top:6%; 
+display:inline-block;
+margin-left:14%;
+}
+
+
+/* cost of living css */
+#cost{
+    margin-top:6%; 
+    display:inline-block;
+    margin-left:20%;
+    }
+
+
+    /* mode of living css */
+#mode{
+    margin-top:6%; 
+    display:inline-block;
+    margin-left:26%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
