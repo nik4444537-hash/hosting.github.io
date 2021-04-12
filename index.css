@@ -1,0 +1,105 @@
+h1{
+    text-align: center;
+}
+
+.content{
+margin-left:45%;
+}
+
+
+.label-name{
+    position:relative;
+ margin-right:10px;   
+}
+
+.label-email{
+    position:relative;
+ margin-right:11px;   
+}
+
+.label-age{
+    margin-left: 16px; 
+}
+
+.input-age{
+    margin-left: 10px;
+}
+
+.label-describe{
+    position:relative;
+    right:130px;
+}
+
+.select-list1{
+    position:relative;
+    right:120px;  
+}
+
+.label-recommend{
+ position:relative;
+ right:240px;   
+}
+
+.input-box-yes{
+    position:relative;
+    left:10px;
+}
+
+.input-box-no{
+    position:relative;
+    left:50px;
+}
+
+.improve{
+    position:relative;
+    right:177px;
+}
+
+.select-list2{
+    position:relative;
+   right:168px;
+}
+
+.check-box-frontend{
+    position:relative;
+    right:180px;  
+}
+
+.label-checkbox{
+    position:relative;
+    right:178px;  
+}
+
+.check-box-backend{
+    position:relative;
+    left:47px;  
+}
+
+.label-checkboxb{
+    position:relative;
+    left:48px;  
+}
+
+.radio-yes{
+    position:relative;
+    right:235px;  
+}
+
+
+.label-radio-yes{
+    position:relative;
+    right:235px;   
+}
+
+
+
+.radio-no{
+    position:relative;
+    left:48px;  
+}
+
+
+.label-radio-no{
+    position:relative;
+    left:50px;   
+}
