@@ -1,72 +1,10 @@
 h1{
-   text-align: center; 
+   text-align: center;
+   padding:4%;
+   color:blue;
 }
 
 
 
 
 
-@media (max-width:360px){
-    .nameLabel{
-        position:absolute;
-        left:20%;
-    }
-
-    .emailLabel{
-        position:absolute;
-        left:20%;
-    }
-
-    .ageLabel{
-        position:absolute;
-        left:20%;
-    }
-
-    }
-
-
-
-
-
-@media (min-width:360px){
-    .nameLabel{
-        position:absolute;
-        left:40%;
-    }
-
-    .emailLabel{
-        position:absolute;
-        left:40%;
-    }
-
-    .ageLabel{
-        position:absolute;
-        left:40%;
-    }
-
-    }
-
-
-
-    
-    @media (min-width:768px){
-    .nameLabel{
-        position:absolute;
-        left:47%;
-    }
-
-    .emailLabel{
-        position:absolute;
-        left:47%;
-    }
-
-    .ageLabel{
-        position:absolute;
-        left:47%;
-    }
-
-    }
-
-
-    
-    
