@@ -1,0 +1,27 @@
+
+@media (max-width:768px){
+    .Rows{
+        text-align: center;
+        }
+}
+
+
+@media (min-width:768px){
+
+.nameLabel{
+position:absolute;
+left:45%;
+}
+
+.emailLabel{
+    position:absolute;
+    left:45%;
+    }
+
+    .ageLabel{
+        position:absolute;
+        left:45%;
+        }
+
+}
+
