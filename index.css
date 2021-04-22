@@ -1,3 +1,6 @@
+
+
+
 h2{
     padding-top:4%;
     text-align:center;
@@ -7,28 +10,41 @@ h2{
 
 @media(max-width:360px){
     
-    .navItem{
-        text-align:center;
-    }
-    
-    
-    a{
-        font-size:13px;
-    }
     
     .book{
         float:left;
-        height:90%;
-        width:50%;
+        max-width:60%;
+         height:10%;
     }
-
-p{
-    font-size:12px;
+    
+ .footer{
+    background-color:grey;
+    padding:0 0 20% 0;
+    position:relative;
+    top:70px;
 }
+
+.f-heading{
+    position:relative;
+    top:40px;
+    text-align:center;
+}
+
+.togglerButton{
+    position:relative;
+    top:2px;
+    left:0;
+}
+
+
 
 .content{
     padding-top:6%;
 }
+
+a{
+        font-size:13px;
+    }
 
 button{
     position:relative;
@@ -36,19 +52,48 @@ button{
     left:10px;
 }
 
-.footer{
 
+    
 }
+
+@media(min-width:360px){
+    .book{
+        float:left;
+        height:50%;
+        max-width:40%;
+    }
+    
+    .footer{
+    background-color:grey;
+    padding-bottom:5%;
+    position:relative;
+    top:300px;
+    box-sizing:none;
+    height:40%;
+}
+
+.f-heading{
+    position:relative;
+    top:200px;
+    text-align:center;
+}
+
+
+    
+    .contentList{
+ padding:0 0 0 30%;   
+}
+
+.anchorList{
+    padding:0 10% 0 0;
+}
+    
+    
     
 }
 
 
-@media(min-width:360px){
-.navItem{
-    padding-left:35%;
-   text-align:center;
-}
 
 
 
-}
+
