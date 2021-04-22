@@ -1,91 +1,54 @@
-h1{
-    text-align: center;
-  padding:3%;
-  color:blue;  
+h2{
+    padding-top:4%;
+    text-align:center;
 }
 
 
 
-
-@media (max-width:768px){
-    .Rows{
-        text-align: center;
-        }
-}
-
-
-
-@media (min-width:768px){
-
-.nameLabel{
-position:absolute;
-left:45%;
-}
-
-.emailLabel{
-    position:absolute;
-    left:45%;
+@media(max-width:360px){
+    
+    .navItem{
+        text-align:center;
+    }
+    
+    
+    a{
+        font-size:13px;
+    }
+    
+    .book{
+        float:left;
+        height:90%;
+        width:50%;
     }
 
-    .ageLabel{
-        position:absolute;
-        left:45%;
-        }
+p{
+    font-size:12px;
+}
 
-        .describeLabel{
-            position:absolute;
-            left:34%;
-            }
+.content{
+    padding-top:6%;
+}
 
-            .visitLabel{
-                position:absolute;
-                left:25%;
-                }
+button{
+    position:relative;
+    top:30px;
+    left:10px;
+}
 
-                .likeLabel{
-                    position:absolute;
-                    left:23%;
-                    }
+.footer{
 
+}
+    
+}
+
+
+@media(min-width:360px){
+.navItem{
+    padding-left:35%;
+   text-align:center;
 }
 
 
 
-
-@media (min-width:1241px){
-
-.nameLabel{
-position:absolute;
-left:45%;
 }
-
-.emailLabel{
-    position:absolute;
-    left:45%;
-    }
-
-    .ageLabel{
-        position:absolute;
-        left:45%;
-        }
-
-        .describeLabel{
-            position:absolute;
-            left:39%;
-            }
-
-            .visitLabel{
-                position:absolute;
-                left:34%;
-                }
-
-                .likeLabel{
-                    position:absolute;
-                    left:33%;
-                    }
-
-}
-
-
-
-
