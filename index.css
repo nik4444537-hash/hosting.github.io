@@ -17,17 +17,15 @@ h2{
          height:10%;
     }
     
- .footer{
+ #foot{
+    margin-top:30%;
     background-color:grey;
-    padding:0 0 20% 0;
-    position:relative;
-    top:70px;
+    padding-bottom:10%;
+    text-align:center;
 }
 
 .f-heading{
-    position:relative;
-    top:40px;
-    text-align:center;
+   padding-top:7%;
 }
 
 .togglerButton{
@@ -63,21 +61,17 @@ button{
         max-width:40%;
     }
     
-    .footer{
+ 
+#foot{
+    margin-top:65%;
     background-color:grey;
-    padding-bottom:5%;
-    position:relative;
-    top:300px;
-    box-sizing:none;
-    height:40%;
-}
-
-.f-heading{
-    position:relative;
-    top:200px;
+    padding-bottom:10%;
     text-align:center;
 }
 
+.f-heading{
+   padding-top:7%;
+}
 
     
     .contentList{
