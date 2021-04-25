@@ -1,0 +1,21 @@
+
+/*  content div */
+#content{
+    width:30%; 
+    height:96%;
+    overflow:scroll;
+    }
+
+
+
+    a{
+        margin-left: 6%;
+        text-decoration: none;
+    }
+
+
+    h1{
+        margin-left: 6%;
+    }
+   
+
