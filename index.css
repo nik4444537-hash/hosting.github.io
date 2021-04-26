@@ -25,9 +25,7 @@
     }
     
     .content{
-        position:absolute;
-        top:30%;
-        left:25%;
+        margin-top:30%;
         text-align:center;
     }
     
@@ -59,7 +57,7 @@
 }
 
 .mid-content{
-    margin-top:55%;
+    margin-top:10%;
     text-align:center;
     
 }
@@ -90,9 +88,7 @@
     }
     
     .content{
-        position:absolute;
-        top:30%;
-        left:35%;
+        margin-top:20%;
         text-align:center;
     }
     
@@ -124,8 +120,8 @@
 }
     
   .mid-content{
-    margin-top:30%;
     text-align:center;
+     margin-top:40%;
     
 }
     
@@ -153,9 +149,7 @@
     }
     
     .content{
-        position:absolute;
-        top:30%;
-        left:35%;
+        margin-top:10%;
         text-align:center;
     }
     
@@ -186,7 +180,7 @@
     padding:0 2% 0 2%;
 }
     .mid-content{
-    margin-top:25%;
+    margin-top:3%;
     text-align:center;
     
 }
