@@ -2,6 +2,7 @@
    https://themestr.app
 */
 
+
 @media(max-width:360px){
     
     .toggler-btn{
@@ -22,6 +23,46 @@
          position:relative;
     right:51%;
     }
+    
+    .content{
+        position:absolute;
+        top:30%;
+        left:25%;
+        text-align:center;
+    }
+    
+    .search-box{
+   border-radius:5%; 
+}
+
+.footer{
+    background-color:grey;
+    margin-top:110%;
+    padding:0 0 10% 0;
+}
+
+.footer-div1{
+    text-align:center;
+}
+
+.f-con1{
+    padding:0 2% 0 2%;
+}
+
+.footer-div2{
+    text-align:center;
+}
+
+.f-con2{
+    padding:1% 0 0 0;
+    padding:0 2% 0 2%;
+}
+
+.mid-content{
+    margin-top:55%;
+    text-align:center;
+    
+}
     
 }
 
@@ -48,6 +89,46 @@
     right:57%;
     }
     
+    .content{
+        position:absolute;
+        top:30%;
+        left:35%;
+        text-align:center;
+    }
+    
+    .search-box{
+   border-radius:5%; 
+}
+
+.footer{
+    background-color:grey;
+    margin-top:110%;
+    padding:0 0 10% 0;
+}
+
+.footer-div1{
+    text-align:center;
+}
+
+.f-con1{
+    padding:0 2% 0 2%;
+}
+
+.footer-div2{
+    text-align:center;
+}
+
+.f-con2{
+    padding:1% 0 0 0;
+    padding:0 2% 0 2%;
+}
+    
+  .mid-content{
+    margin-top:30%;
+    text-align:center;
+    
+}
+    
 }
 
 @media(min-width:750px){
@@ -71,7 +152,43 @@
     right:60%;
     }
     
+    .content{
+        position:absolute;
+        top:30%;
+        left:35%;
+        text-align:center;
+    }
     
+    .search-box{
+   border-radius:5%; 
+}
+
+.footer{
+    background-color:grey;
+    margin-top:80%;
+    padding:0 0 10% 0;
+}
+
+.footer-div1{
+    text-align:center;
+}
+
+.f-con1{
+    padding:0 2% 0 2%;
+}
+
+.footer-div2{
+    text-align:center;
+}
+
+.f-con2{
+    padding:1% 0 0 0;
+    padding:0 2% 0 2%;
+}
+    .mid-content{
+    margin-top:25%;
+    text-align:center;
     
+}
     
 }
