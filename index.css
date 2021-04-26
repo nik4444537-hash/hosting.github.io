@@ -1,0 +1,28 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+@media(max-width:360px){
+    
+    .toggler-btn{
+        font-size:70%;
+        position:relative;
+       left:1%;
+        
+    }
+    
+    .nav-content{
+        font-size:90%;
+        position:relative;
+    right:23%;
+    }
+    
+    .nav-content1{
+        font-size:90%;
+         position:relative;
+    right:51%;
+    }
+    
+    
+    
+    
+}
