@@ -1,6 +1,7 @@
 /* build your own custom Bootstrap theme:
    https://themestr.app
 */
+
 @media(max-width:360px){
     
     .toggler-btn{
@@ -20,6 +21,54 @@
         font-size:90%;
          position:relative;
     right:51%;
+    }
+    
+}
+
+
+
+@media(min-width:360px){
+    
+    .toggler-btn{
+        font-size:70%;
+        position:relative;
+       left:1%;
+        
+    }
+    
+    .nav-content{
+        font-size:90%;
+        position:relative;
+    right:28%;
+    }
+    
+    .nav-content1{
+        font-size:90%;
+         position:relative;
+    right:57%;
+    }
+    
+}
+
+@media(min-width:750px){
+    
+    .toggler-btn{
+        font-size:70%;
+        position:relative;
+       left:1%;
+        
+    }
+    
+    .nav-content{
+        font-size:90%;
+        position:relative;
+    right:32%;
+    }
+    
+    .nav-content1{
+        font-size:90%;
+         position:relative;
+    right:60%;
     }
     
     
