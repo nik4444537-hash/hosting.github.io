@@ -2,6 +2,10 @@
    https://themestr.app
 */
 
+input:focus{
+     padding:0 10% 0 5%;
+}
+
 
 @media(max-width:360px){
     
@@ -30,8 +34,9 @@
     }
     
     .search-box{
-   border-radius:5%; 
+   border-radius:5%;
 }
+
 
 .footer{
     background-color:grey;
@@ -61,6 +66,21 @@
     text-align:center;
     
 }
+
+.content i{
+    position:absolute;
+    margin-top:6px;
+}
+
+.micro-icon {
+    position:relative;
+    left:73%;
+}
+
+input:focus{
+     padding:0 6% 0 5%;
+}
+
     
 }
 
@@ -93,6 +113,7 @@
     }
     
     .search-box{
+        width:60%;
    border-radius:5%; 
 }
 
@@ -123,6 +144,16 @@
     text-align:center;
      margin-top:1%;
     
+}
+
+.content i{
+    position:absolute;
+    margin-top:6px;
+}
+
+.micro-icon{
+    position:relative;
+    left:76%;
 }
     
 }
@@ -183,6 +214,16 @@
     margin-top:1%;
     text-align:center;
     
+}
+
+.content i{
+    position:absolute;
+    margin-top:6px;
+}
+
+.micro-icon{
+position:relative;
+    left:78%;
 }
     
 }
