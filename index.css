@@ -1,0 +1,27 @@
+@media(max-width:586px){
+
+    .newClass{
+        width:0;
+        height:100%;
+        position: fixed;
+        top:0;
+        left:0;
+        transition:0.7s;
+        background-color: aliceblue;
+    }
+
+    .newClass a{
+        transition: 0.5s;
+    }
+
+    .icon{
+        cursor: pointer;  
+    }
+
+    ul{
+        text-decoration:none;
+        margin-top:0;
+        
+    }
+
+}
