@@ -1,0 +1,181 @@
+/* applicable to all devices */
+body{
+    background-color:whitesmoke;
+}
+
+
+
+/* for laptop pc and other large devices */
+@media(min-width:992px){
+
+/* image container */
+.image-container{
+    display: inline-block;
+    position: relative;
+    left:24%;
+    top:10%;
+}
+
+/* content  container */
+.content{
+    width:40%;
+    height:50%;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    left:30%;
+    top:8%;
+}
+
+.daysDiv{
+    display: inline-block;
+    background-color: grey;
+    width:13%;
+    height:17%;
+    position:relative;
+    right:1%;
+}
+
+.hourDiv{
+    display: inline-block;
+    background-color: thistle;
+    width:13%;
+    height:17%;
+    position:relative;
+    left:2%;
+}
+
+.MinutesDiv{
+    display: inline-block;
+    background-color: tomato;
+    width:13%;
+    height:17%;
+    position:relative;
+    left:4%;
+}
+
+.secondsDiv{
+    display: inline-block;
+    background-color: turquoise;
+    width:13%;
+    height:17%;
+    position:relative;
+    left:6%;
+}
+
+scan{
+    position:relative;
+    top:3%;
+}
+
+}
+
+
+    /* for mobile small tablets and other small devices */
+@media(max-width:992px){
+
+    /* image container */
+    .image-container{
+        position: relative;
+        text-align: center;
+        top:10%;
+    }
+    
+    /* content  container */
+    .content{
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        top:10%;
+    }
+
+    .daysDiv{
+        display: inline-block;
+        background-color: grey;
+        width:9%;
+        height:10%;
+        position:relative;
+        right:1%;
+    }
+    
+    .hourDiv{
+        display: inline-block;
+        background-color: thistle;
+        width:9%;
+        height:10%;
+        position:relative;
+        left:2%;
+    }
+    
+    .MinutesDiv{
+        display: inline-block;
+        background-color: tomato;
+        width:9%;
+        height:10%;
+        position:relative;
+            left:4%;
+    }
+    
+    .secondsDiv{
+        display: inline-block;
+        background-color: turquoise;
+        width:9%;
+        height:10%;
+        position:relative;
+        left:6%;
+    }
+    
+    scan{
+        position:relative;
+        top:3%;
+    }
+
+
+
+    @media(max-width:576px){
+
+        .daysDiv{
+            display: inline-block;
+            background-color: grey;
+            width:12%;
+            height:10%;
+            position:relative;
+            right:1%;
+        }
+        
+        .hourDiv{
+            display: inline-block;
+            background-color: thistle;
+            width:10%;
+            height:10%;
+            position:relative;
+            left:2%;
+        }
+        
+        .MinutesDiv{
+            display: inline-block;
+            background-color: tomato;
+            width:12%;
+            height:10%;
+            position:relative;
+            left:4%;
+        }
+        
+        .secondsDiv{
+            display: inline-block;
+            background-color: turquoise;
+            width:12%;
+            height:10%;
+            position:relative;
+            left:6%;
+        }
+        
+        scan{
+            position:relative;
+            top:3%;
+        }
+
+
+    }
+}
+
