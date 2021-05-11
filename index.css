@@ -1,0 +1,58 @@
+#title{
+background-color:#ff4c68;
+}
+
+.container-fluid{
+padding-top:4.5rem;
+}
+
+.dnButton{
+margin:5% 3% 0 5%;    
+}
+
+.iphoneImg{
+width:50%;
+}
+
+.feature{
+
+    display:inline-block;
+    padding:8% 2% 8% 6%;
+}
+
+#testimonials{
+padding:7% 15%;  
+text-align: center;
+background-color:#ff4c68;
+}
+
+.dog-image{
+ border-radius:50%;   
+}
+
+#press{
+    background-color:#ff4c68;
+    text-align: center;    
+}
+
+.press{
+width:20%;
+ padding:2% 3%;   
+}
+
+.carousel-item{
+padding:20%;    
+}
+
+#cta{
+background-color: #ff4c68;
+padding:5% 5% 10% 5%;  
+text-align: center; 
+ 
+}
+
+#footer{
+padding-top:5%;
+padding-bottom:10%;
+ text-align: center;   
+}
