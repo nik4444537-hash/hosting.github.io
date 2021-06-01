@@ -1,7 +1,7 @@
 // array of songs
 var songsArray = [{
         id: "song1",
-        songImage: "images/wakhra.jpg",
+        songImage: "wakhra.jpg",
         songName: "Agar Tu Hota",
         type: "romantic",
         year: "2016",
@@ -10,7 +10,7 @@ var songsArray = [{
 
     {
         id: "song2",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Darkhaast",
         type: "romantic",
         year: "2016",
@@ -19,7 +19,7 @@ var songsArray = [{
 
     {
         id: "song3",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Hamdard",
         type: "romantic",
         year: "2015",
@@ -27,7 +27,7 @@ var songsArray = [{
     },
     {
         id: "song4",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Phir Kabhi",
         type: "sad",
         year: "2016",
@@ -35,7 +35,7 @@ var songsArray = [{
     },
     {
         id: "song5",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Tose Naina",
         type: "sad",
         year: "2016",
@@ -43,7 +43,7 @@ var songsArray = [{
     },
     {
         id: "song6",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Yaad Hai Na",
         type: "sad",
         year: "2016",
@@ -51,7 +51,7 @@ var songsArray = [{
     },
     {
         id: "song7",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "soch na sake",
         type: "party",
         year: "2016",
@@ -59,7 +59,7 @@ var songsArray = [{
     },
     {
         id: "song8",
-        songImage: "images/khul ke jeene ka.jpg",
+        songImage: "khul ke jeene ka.jpg",
         songName: "Suno Na Sangemarmar",
         type: "party",
         year: "2016",
