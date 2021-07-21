@@ -1,74 +1,84 @@
 <html>
 
 <head>
-    <meta charaset="UTF-8">
-    <title>
-
-    </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css"
+        rel="stylesheet">
+    <link rel='stylesheet' href='index.css'>
 </head>
-
 <body>
+    <div class="container">
+        <h3 class=" text-center">Chatter</h3>
+        <div class="messaging">
+            <div class="inbox_msg">
+                <div class="inbox_people">
+                    <div class="headind_srch">
+                        <div class="recent_heading">
+                            <h4>Recent</h4>
+                        </div>
+                        <div class="srch_bar">
+                            <div class="stylish-input-group">
+                                <input type="text" class="search-bar" placeholder="Search">
+                                <span class="input-group-addon">
+                                    <button type="button"> <i class="fa fa-search" aria-hidden="true"></i> </button>
+                                </span> </div>
+                        </div>
+                    </div>
+                    <div class="inbox_chat">
+                        <div class="chat_list active_chat">
+                            <div class="chat_people">
+                                <div class="chat_img"> <img src="https://ptetutorials.com/images/user-profile.png"
+                                        alt="sunil"> </div>
+                                <div class="chat_ib">
+                                    <h5>Sunil Rajput <span class="chat_date">Dec 25</span></h5>
+                                    <p>Test, which is a new approach to have all solutions
+                                        astrology under one roof.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mesgs">
+                    <div class="msg_history">
+                        <div class="incoming_msg">
+                            <div class="incoming_msg_img"> <img src="https://ptetutorials.com/images/user-profile.png"
+                                    alt="sunil"> </div>
+                            <div class="received_msg">
+                                <div class="received_withd_msg">
+                                    <p>Test which is a new approach to have all
+                                        solutions</p>
+                                    <span class="time_date"> 11:01 AM | June 9</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outgoing_msg">
+                            <div class="sent_msg">
+                                <p>Test which is a new approach to have all
+                                    solutions</p>
+                                <span class="time_date"> 11:01 AM | June 9</span>
+                            </div>
+                        </div>
 
-    <article>
-
-        <!-- main container -->
-        <main class="container">
-            <h1>Music</h1>
-
-            <!-- filters dropdowns -->
-            <div class="filters">
-
-                <!-- cacading dropdown list -->
-                <select id="songGenre">
-
-                </select>
-                <select id="songYear">
-
-                </select>
-                <select id="songSinger">
-
-                </select>
-            </div>
-
-            <!-- songs container -->
-            <div class="song-items">
-                <!-- song item -->
-                <div class="songs">
-
+                    </div>
+                    <div class="type_msg">
+                        <div class="input_msg_write">
+                            <form method='post' action=''>
+                                <input type="text" class="write_msg" placeholder="Type a message" name='message' />
+                                <button class="msg_send_btn" type="submit"><i class="fa fa-paper-plane-o"
+                                        aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- bottom navigation  -->
-            <div class="bottom-navigation">
-                <div class="iconContainer">
-               <div class="main-icons">
-                   <i id="backward" class="fas fa-backward"></i>
-                    <i id="play" class="far fa-pause-circle"></i>
-                    <i id="forward" class="fas fa-forward"></i>
-                </div>
-                <div>
-                <i id="volume" class="fas fa-volume-up"></i>
-                </div>
-            </div>
-                
-                <div class="ranger">
-                    <input type="range" class="slider" value="0" min="0" max="100">
-                </div>
-            </div>
+            <p class="text-center top_spac"> Design by <a target="_blank"
+                    href="https://www.linkedin.com/in/nakul-yadav-6b04251a3/">Nakul yadav</a></p>
 
-
-        </main>
-
-
-
-    </article>
-
-
-    <script src="index.js"></script>
+        </div>
+    </div>
 </body>
 
 </html>
